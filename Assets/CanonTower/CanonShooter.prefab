@@ -167,8 +167,8 @@ MonoBehaviour:
   BulletPrefab: {fileID: 3007761237086376572, guid: 5752d3fa9b65f294d8e23952775c78e5, type: 3}
   power: 3
   NoOfBulletsInSeries: 4
-  delayBetweenBullets: 0.2
-  delayBetweenSeries: 2
+  delayBetweenBullets: 0.117
+  delayBetweenSeries: 1.37
   distance: 11
 --- !u!50 &5737465996462244398
 Rigidbody2D:
@@ -178,7 +178,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 398652334659630955}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -255,8 +255,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyEffectPrefab: {fileID: 1167509983063758603, guid: 1fc1d5028770a6d458c89bb9c02ee409, type: 3}
-  hp: 15
-  hitDamage: 2
+  hp: 6
+  hitDamage: 7
 --- !u!1 &398652335544922019
 GameObject:
   m_ObjectHideFlags: 0

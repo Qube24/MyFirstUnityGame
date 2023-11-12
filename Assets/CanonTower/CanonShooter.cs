@@ -21,9 +21,7 @@ public class CanonShooter : MonoBehaviour
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         canon = gameObject.transform.Find("canon");
-        Debug.Log("canon" + canon.transform.position.x);
         aimPos = canon.transform.Find("aim").transform;
-        Debug.Log("aimpos" + aimPos.position.x);
     }
 
     void Update()
