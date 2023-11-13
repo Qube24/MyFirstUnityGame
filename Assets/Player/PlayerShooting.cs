@@ -20,7 +20,7 @@ public class PlayerShooting : MonoBehaviour
     }
 
     void GetUserInput(){
-        if(Input.GetButtonDown("Fire1")){
+        if(Input.GetKeyDown(KeyCode.Space)){
             Shoot();
         }
     }

@@ -16,7 +16,7 @@ public class Teleport : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(5);
             }
         }
 

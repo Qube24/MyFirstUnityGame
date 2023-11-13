@@ -989,6 +989,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3042293039640950351, guid: 55b5a4bb6f528364196e2959c96fb126, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042293039640950351, guid: 55b5a4bb6f528364196e2959c96fb126, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042293039640950351, guid: 55b5a4bb6f528364196e2959c96fb126, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9433962
+      objectReference: {fileID: 0}
     - target: {fileID: 3042293039690606418, guid: 55b5a4bb6f528364196e2959c96fb126, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1928,14 +1940,6 @@ PrefabInstance:
     - target: {fileID: 5166237242902200113, guid: 832c4c571925b0143ba4e09a51ed66d5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9056908725302185020, guid: 832c4c571925b0143ba4e09a51ed66d5, type: 3}
-      propertyPath: hp
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 9056908725302185020, guid: 832c4c571925b0143ba4e09a51ed66d5, type: 3}
-      propertyPath: hitDamage
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

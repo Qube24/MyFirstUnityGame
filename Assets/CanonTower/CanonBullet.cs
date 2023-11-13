@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CanonBullet : MonoBehaviour
 {
+    [SerializeField] GameObject hitEffecfPrefab;
     Rigidbody2D rb;
     Vector2 vel;
     int bulletPower;
@@ -25,6 +26,7 @@ public class CanonBullet : MonoBehaviour
     {
         if (other.transform.CompareTag("Obstacle") || other.transform.CompareTag("Player"))
         {
+            ShowHitEffect(transform.position);
             if (other.GetComponent<Hp>())
             {
                 other.GetComponent<Hp>().TakeDamage(bulletPower);
@@ -32,4 +34,14 @@ public class CanonBullet : MonoBehaviour
             Destroy(gameObject, 0f);
         }
     }
+
+    void ShowHitEffect(Vector2 pos)
+    {
+        if (hitEffecfPrefab)
+        {
+            GameObject hitEffect = Instantiate(hitEffecfPrefab, pos, Quaternion.identity);
+            Destroy(hitEffect, 1f);
+        }
+    }
+
 }

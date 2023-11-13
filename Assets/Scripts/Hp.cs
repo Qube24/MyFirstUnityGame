@@ -32,7 +32,7 @@ public class Hp : MonoBehaviour
         {
             if (gameObject.transform.CompareTag("Player"))
             {
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(2);
             }
             if (destroyEffectPrefab)
             {

@@ -4,16 +4,13 @@ using UnityEngine;
 // biblioteka obs³uguj¹ca Build Settings
 using UnityEngine.SceneManagement;
 
-public class GameOver : MonoBehaviour
+public class Instruction : MonoBehaviour
 {
     // publiczna bo musi byæ widoczna z poziomu Unity
-    public void RetryGame()
+    public void Back()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(0);
     }
 
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
+  
 }

@@ -167,9 +167,9 @@ MonoBehaviour:
   BulletPrefab: {fileID: 3007761237086376572, guid: 5752d3fa9b65f294d8e23952775c78e5, type: 3}
   power: 3
   NoOfBulletsInSeries: 4
-  delayBetweenBullets: 0.117
-  delayBetweenSeries: 1.37
-  distance: 11
+  delayBetweenBullets: 0.2
+  delayBetweenSeries: 3
+  distance: 10
 --- !u!50 &5737465996462244398
 Rigidbody2D:
   serializedVersion: 4
