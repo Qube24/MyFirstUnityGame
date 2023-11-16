@@ -133,8 +133,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyEffectPrefab: {fileID: 0}
-  hp: 5
-  hitDamage: 10
+  hp: 4
+  hitDamage: 3
 --- !u!1 &7156419993563528315
 GameObject:
   m_ObjectHideFlags: 0

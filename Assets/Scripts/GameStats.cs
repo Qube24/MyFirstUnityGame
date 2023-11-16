@@ -11,6 +11,7 @@ public class GameStats : MonoBehaviour
 
     void Start()
     {
+
         player = GameObject.FindGameObjectWithTag("Player");
         playerHp = player.GetComponent<Hp>();
         slider = gameObject.GetComponentInChildren<Slider>();
@@ -22,4 +23,6 @@ public class GameStats : MonoBehaviour
     {
         slider.value = hp;
     }
+
+
 }

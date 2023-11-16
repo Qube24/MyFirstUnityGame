@@ -5120,7 +5120,7 @@ MonoBehaviour:
   bulletPlayerPrefab: {fileID: 1306057694600049539, guid: e2c92d14a015a24428ec2e3bb26860db, type: 3}
   aim: {fileID: 5166237242904370416}
   shootBulletAudio: {fileID: 8300000, guid: f1e16060b1ca0024c9b0ae5cd4b06634, type: 3}
-  bulletSpeed: 42.5
+  bulletSpeed: 25
 --- !u!114 &9056908725302185020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5133,7 +5133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064697935a17e3745a28a8168d0099b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyEffectPrefab: {fileID: 0}
+  destroyEffectPrefab: {fileID: 2855938966037256114, guid: d716620bc709206468a5d396387bb71d, type: 3}
   hp: 20
   hitDamage: 2
 --- !u!1 &5166237242904370417

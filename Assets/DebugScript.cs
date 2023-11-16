@@ -7,10 +7,8 @@ public class DebugScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Witaj i graj");
+        Debug.Log("Witaj Graczu");
         Debug.Log(transform.position);
-       
-        
     }
 
     // Update is called once per frame

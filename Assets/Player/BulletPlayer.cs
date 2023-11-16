@@ -12,7 +12,7 @@ public class BulletPlayer :MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = vel * moveSpeed;
-        Destroy(gameObject, 0.4f);
+        Destroy(gameObject, 0.6f);
     }
 
     public void Initialize(Vector2 vel_p, float bulletSpeed_p){
